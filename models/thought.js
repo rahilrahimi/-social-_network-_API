@@ -3,7 +3,7 @@ const { Schema, model, Types } = require("mongoose");
 const dateFormat = require("../utils/dateFormat");
 
 //create Reaction Schema
-const ReplySchema = new Schema({
+const ReactionSchema = new Schema({
     replyId: {
     type: Schema.Types.ObjectId,
     default: () => new Types.ObjectId(),
