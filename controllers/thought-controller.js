@@ -64,6 +64,9 @@ getThoughtById({ params }, res ){
       },
     // Add reaction
       addReaction({ params, body }, res) {
+        // console.log(`params.thoughtId: ${params.id}`)
+        // console.log(`body: ${body}`)
+
         Thought.findOneAndUpdate(
           { _id: params.thoughtId },
           { $push: { reactions: body } },

@@ -14,7 +14,8 @@ router.route('/:userId').post(addThought);
 
 // get all thoughts
 router.route('/').get(getAllThoughts);
-
+router.route('/reaction/:thoughtId/:reactionId').delete(removeReaction).put(addReaction);
+ 
 //get thoughts by id
 router
 .route('/:id')
@@ -26,7 +27,5 @@ router
 .route('/:userId/:thoughtId')
 .put(addReaction)
 .delete(removeThought);
-
-router.route('/:userId/:thoughtId/:reactionId').delete(removeReaction);
 
 module.exports = router;
