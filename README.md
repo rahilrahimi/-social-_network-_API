@@ -35,7 +35,10 @@ GIVEN a social network API
 
 * THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
-# walkthrough video that demonstrates its functionality 
-
+# walkthrough video that demonstrates its functionality
+ * (link for find all, create, update, delete user and find user by Id)
+## https://watch.screencastify.com/v/uWZAdkdV5UcaEirkAn4K
+ * (link for get all, create, update, delete thoughts and get thoughts by Id)
+## https://watch.screencastify.com/v/NE0UeNPl9ZvlQsmoK1Sw
 
 
