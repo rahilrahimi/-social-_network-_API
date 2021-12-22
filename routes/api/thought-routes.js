@@ -14,7 +14,7 @@ router.route('/:userId').post(addThought);
 
 // get all thoughts
 router.route('/').get(getAllThoughts);
-router.route('/reaction/:thoughtId/:reactionId').delete(removeReaction).put(addReaction);
+router.route('/:thoughtId/reactions/:reactionId').delete(removeReaction).put(addReaction);
  
 //get thoughts by id
 router

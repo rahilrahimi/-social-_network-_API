@@ -26,10 +26,13 @@ router
   .delete(deleteUser);
 
   // Set up GET one, PUT, and DELETE at /api/users/:id
-// /api/users/:userId/friend/:frinedId
+// /api/users/:userId/friends/:frinedId
 router
-  .route('/:userId/friend/:frinedId')
+  .route('/:userId/friends/:friendId')
   .post(addFriend)
-  .delete(deleteFriend);
 
+  router
+  .route('/:userId/friends/:friendId')
+  .delete(deleteFriend);
+  
 module.exports = router;
