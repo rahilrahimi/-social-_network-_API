@@ -40,5 +40,9 @@ GIVEN a social network API
 ## https://watch.screencastify.com/v/uWZAdkdV5UcaEirkAn4K
  * (link for get all, create, update, delete thoughts and get thoughts by Id)
 ## https://watch.screencastify.com/v/NE0UeNPl9ZvlQsmoK1Sw
+* (link for add friend and Delete friend)
+## https://watch.screencastify.com/v/kRqD3q1pfo6xmgzpxBDh
+* (create reaction and Delete reaction)
+## https://watch.screencastify.com/v/OeKWewqs6fC0qnby9kZK
 
 
